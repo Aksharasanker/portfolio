@@ -1,0 +1,256 @@
+*{
+    font-family: "Gowun Batang", serif;
+    margin:0px;
+    padding:0px;
+}
+
+    
+
+#container{
+    width:100%;
+    height:100vh;
+    margin-top:-300px;
+    position:relative;
+    display:flex;
+    
+}
+
+
+.navbar{
+  width:90%;
+  display:flex;
+  justify-content:space-between;
+  margin-left: 100px;
+  align-items: center;
+ 
+  
+}
+ 
+
+#logo{
+    width:130px;
+                                                                                                                                                                                                                                        
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+    
+}
+.links:hover{
+    color: brown;
+}
+.linkitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+
+.title{
+    margin-left: 8%;
+    margin-top: -200px;
+    
+}
+.title_h1{
+    font-size: 53px;
+    margin-bottom: 20;
+   
+}
+
+#lastname{
+    color: orange;
+}
+#download{
+
+text-decoration: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    display: inline-block;
+}     
+.images{
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    right:30px;
+    bottom: 0px;
+   
+}   
+.imagegrp{
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    transform:translate(-50x);
+    
+}
+.images:hover #girl{
+    left:40px;
+}
+
+    
+.images:hover #shape{
+    bottom:40px;
+}
+.About{
+    margin-top: 500px;
+    margin-left: 45%;
+}
+#abt{
+    color: rgb(11, 118, 11);
+    font-size: 20px;
+}
+#about{
+    margin:20% 8% 0% 8%;
+}
+.heading{
+    text-align: center;
+    font-size: 32px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    margin-top: 50px;
+}
+.abtimg{
+    width:80%;
+    border-radius: 10px;
+
+}
+.details{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+.information{
+    margin-top: 1.5rem;
+}
+.infobox{
+    margin-left:1rem;
+    font-size: 20px;
+}
+.head{
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+#skills{
+    margin: 8% 8% 5px 8%;
+}
+
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    margin-top: 2.5rem;
+}
+.progressbar{
+ display: flex;
+ align-items: center;
+ margin-top: 2rem;
+ padding: 1rem 0px;
+ justify-content: space-between;
+ position: relative;
+
+}
+.progressbar span{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.bar{
+    width:100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.html_bar{
+    width: 95%;
+    background-color: orange;
+}
+
+.css_bar{
+    width: 88%;
+    background-color: orange; 
+}
+
+
+.js_bar{
+    width: 89%;
+    background-color: orange; 
+}
+.react_bar{
+    width: 85%;
+    background-color: orange; 
+}
+.head{
+    align-items: center;
+    font-size: 30px;
+}
+
+.icons_set{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+    font-size: 2rem;
+    color: black;
+    
+}
+.icons:hover{
+    background-image: linear-gradient(to top left,red, yellow);
+}
+
+.icon i{
+    font-size: 2rem;
+    color: black;
+}
+
+.icons:hover i{
+    color: white;
+    animation: shake 0.75s;
+
+    
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+.up_arrow{
+    background-image: -o-linear-gradient(to bottom right,yellow,orange);
+    float: right;
+    margin: 10px 20px 50px 0px;
+    float: right;
+}
+
+html{
+    scroll-behavior: smooth;
+}
